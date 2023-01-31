@@ -1,0 +1,11 @@
+[package]
+name = "gba-img-convert"
+repository = "https://github.com/Lokathor/gba-img-convert"
+description = "GBA Image Converter"
+version = "0.1.0"
+edition = "2021"
+license = "Zlib OR MIT OR Apache-2.0"
+
+[dependencies]
+clap = { version = "4.1.4", features = ["derive"] }
+imagine = { version = "0.3.0", features = ["miniz_oxide"] }
